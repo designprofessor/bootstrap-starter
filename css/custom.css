@@ -1,0 +1,31 @@
+/* STARTER PROJECT - MOBILE FIRST! Start with all styles for mobile, 
+and your window in a small screen view when previewing your HTML */
+
+/* Mobile Styles. This is where all your styling should go first, 
+then only ovveride in the media queries below when necessary 
+as the screen gets larger */
+
+
+
+/* Tablet Styles */
+@media screen and (min-width:768px) {
+	h1 {
+		font-size:42px;
+	}
+}
+
+
+/* Desktop Styles */
+@media screen and (min-width:992px) {
+	h1 {
+		font-size:52px;
+	}
+}
+
+
+/* Larger Desktop Styles - OPTIONAL */
+@media screen and (min-width:1200px) {
+	h1 {
+		font-size:72px;
+	}
+}
